@@ -1,0 +1,199 @@
+.cabeçalho {
+    height: 14vh;
+    width: 100vw;
+}
+
+a {
+    color: black;
+}
+
+.categorias {
+    height: 7vh;
+    background-color: rgb(81, 211, 81);
+    line-height: 7vh;
+    text-align: left;
+}
+
+.logo {
+    margin-left: 2vh;
+    max-width: 10vw;
+    
+}
+
+.opções {
+    float: right;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    vertical-align: middle;
+}
+
+.navPokemon {
+    height: 7vh;
+    background-color: greenyellow;
+    line-height: 7vh;
+    text-align: center;
+}
+
+.navOptions {     
+    margin-left: 3vw;    
+    vertical-align: middle;
+    font-size:x-large;
+    height: 7vh;
+}
+
+.navOptions:hover {
+    transition-duration: 0.5s;
+    padding: 1vh;
+    background-color: rgb(67, 194, 99);
+}
+
+body {
+    height: 86vh;
+    width: 100vw;
+    background-color: aqua;
+    text-align: center;
+}
+
+.conteúdo {
+    display: inline-block;
+    text-align: left;
+    height: 55vh;
+    width: 30vw;
+    overflow: hidden;
+    background-color: white;
+    margin-top: 10vh;
+    border-radius: 2vh; 
+}
+
+.Charizard {
+    height: 55vh;
+    width: 40vw;
+    border: solid rgb(27, 124, 180) 3vh; 
+}
+
+.informações {
+    margin-left: 5vh;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5vh;
+}
+
+.infPokemon {
+    color: white;
+    font-size: medium;
+}
+
+.detalhesTitulo {
+    color: black;
+    font-size: medium;
+    margin-top: 2vh;
+}
+
+.detalhes {
+    color: white;
+    font-size: medium;
+}
+
+.conteúdo:hover {
+    transition-duration: 0.5s;
+    width: 70vw;
+    transition-timing-function: ease-in;
+    background-color: rgb(27, 124, 180);
+}
+
+.navStats {
+    margin-top: 10vh;
+}
+
+.texto {
+    font-size: 3vh
+}
+
+.stats {
+    background-color: green;
+    width: 50%;
+    padding: 1px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.HP {
+    background-color: red;    
+    width: 50%;
+    padding: 1px;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 0.5vh;
+}
+.numeroHP {
+    margin-left: 9vw;
+    border-right: 0.5vh solid black;
+    font-size: 3vh;
+    text-align: left;
+}
+
+.Ataque {
+    background-color: orange;
+    width: 50%;
+    padding: 1px;
+    margin: 0 auto;
+    text-align: left;
+}
+.numeroAtaque {
+    margin-left: 6.6vw;
+    border-right: 0.5vh solid black;
+    font-size: 3vh;
+    text-align: left;
+}
+.Defesa {
+    background-color: yellow;
+    width: 50%;
+    padding: 1px;
+    margin: 0 auto;
+    text-align: left;
+}
+.numeroDefesa {
+    margin-left: 6.8vw;
+    border-right: 0.5vh solid black;
+    font-size: 3vh;
+    text-align: left;
+}
+.EpAtaque {
+    background-color: rebeccapurple;
+    width: 50%;
+    padding: 1px;
+    margin: 0 auto;
+    text-align: left;
+}
+.numeroEpA {
+    margin-left: 1.4vw;
+    border-right: 0.5vh solid black;
+    font-size: 3vh;
+    text-align: left;
+}
+.EpDefesa {
+    background-color: rgb(58, 173, 58);
+    width: 50%;
+    padding: 1px;
+    margin: 0 auto;
+    text-align: left;
+}
+.numeroEpD {
+    margin-left: 1.5vw;
+    border-right: 0.5vh solid black;
+    font-size: 3vh;
+    text-align: left;
+}
+.Velocidade {
+    background-color: rgb(160, 51, 127);
+    width: 50%;
+    padding: 1px;
+    margin: 0 auto;
+    text-align: left;
+}
+.numeroVelocidade {
+    margin-left: 4.5vw;
+    border-right: 0.5vh solid black;
+    font-size: 3vh;
+    text-align: left;
+}
