@@ -1,0 +1,245 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.navUniversal {
+    height: 8vh;
+    background-color: black;
+    text-align: left;
+    
+}
+.navPersonal {
+    text-align: center;
+    height: 8vh;
+    background-color: rgb(122, 33, 122);
+    
+    
+}
+.navTitle{
+    font-size: 2.5vh;
+    color: white;
+    display: inline-block;
+    margin-top: 2vh;
+    
+}
+.navTitleName{
+    color: white;
+    float: right;
+    margin-left: -40vw;
+    margin-right: 40vw;
+    margin-top: 2vh;
+    
+}
+
+.contents {
+    text-align: center;
+    height: 80vh;
+    background-color: aqua;
+}
+
+.pokemon {
+    height: 35vh;
+    border: solid rgb(0, 195, 255) 1.5vh;
+    background-color: white;
+}
+
+.pokemonDiv{
+    text-align: center;
+    height: 35vh;
+    width: 30vw;
+    display: inline-block;
+    overflow: hidden;
+}
+.pokemonDiv:hover{
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    width: 60vw;
+}
+
+
+.pokemonInformationDiv {
+    margin-left: -1vh;
+    vertical-align: top;
+    display: inline-block;
+    height: 35vh;
+    width: 60vh;
+    font-size: 1.8vh;
+    background-color: rgb(0, 195, 255);
+    display: inline-block;
+}
+.statDetailsTitle{
+    margin-top: 0.2vh;
+    color: white;
+    text-align: left;
+
+}
+.statDetailsSub{
+    text-align: left;
+    
+}
+
+
+
+.pokemonInformation {
+    margin-top: 2vh;
+}
+
+
+
+.statSection {
+    text-align: center;
+    height: 44vh;
+    width: 60vw;
+    background-color: green;
+    display: inline-block;
+
+}
+
+.statHabilityDiv {
+    height: 4vh;
+    width: 58vw;
+    background-color: purple;
+    text-align: left;
+    margin-left: 1vw;
+    margin-bottom: 2vh;
+    border: solid black 0.3vh;
+
+}
+
+.statTitle {
+    margin-bottom: 3vh;
+    font-size: 5vh;
+}
+
+.statBarSection {
+    display: inline-block;
+}
+
+.statBar {
+    height: 3.2vh;
+    width: 20vw;
+    border: solid black 0.3vh;
+    display: inline-block;
+
+}
+
+.statBarTitle {
+    display: inline-block;
+    font-size: 2vh;
+    text-align: center;
+}
+
+.statBarTitleDiv {
+    height: 3vh;
+    width: 15vh;
+    display: inline-block;
+    
+
+}
+
+.statValue {
+    margin-left: 1vh;
+}
+
+.hpBar {
+    background-color: rgb(255, 158, 158);
+
+}
+
+.hpValueBar {
+    background-color: red;
+    border-color: rgb(255, 158, 158);
+    width: 20vw;
+    border-right: solid black 0.3vh;
+}
+
+.attackBar {
+    background-color: rgb(255, 189, 128);
+
+}
+
+.attackValueBar {
+    background-color: rgb(255, 123, 0);
+    border-color: rgb(255, 189, 128);
+    width: 30vw;
+    border-right: solid black 0.3vh;
+}
+
+.defenseBar {
+    background-color: rgb(255, 248, 157);
+
+}
+
+.defenseValueBar {
+    background-color: rgb(255, 238, 0);
+    border-color: rgb(255, 248, 157);
+    width: 23vw;
+    border-right: solid black 0.3vh;
+}
+
+.spAttackBar {
+    background-color: rgb(152, 153, 255);
+
+}
+
+.spAttackValueBar {
+    background-color: rgb(0, 4, 255);
+    border-color: rgb(152, 153, 255);
+    width: 30vw;
+    border-right: solid black 0.3vh;
+}
+
+.spDefenseBar {
+    background-color: rgb(188, 255, 211);
+
+}
+
+.spDefenseValueBar {
+    background-color: rgb(0, 255, 85);
+    border-color: rgb(188, 255, 211);
+    border-right: solid black 0.3vh;
+}
+
+.speedBar {
+    background-color: rgb(255, 158, 223);
+
+}
+
+.speedValueBar {
+    background-color: rgb(255, 0, 170);
+    border-color: rgb(255, 158, 223);
+    width: 26vw;
+    border-right: solid black 0.3vh;
+
+}
